@@ -57,3 +57,12 @@ This command gets the total coverage of test integration
 ```
 go tool cover -func coverage_integration.out
 ```
+
+## Test Postman
+Here is the REST API path that can be tested with the HTTP / REST endpoint
+
+##### GET
+
+```
+localhost:8888/api/v1/multiply?number1=5.0&number2=10.2
+```
